@@ -1,9 +1,9 @@
 # Data-Science-Project
 Data science project on exploratory data analysis using Youtube trending video statistics 
 
-Source of Dataset: Kaggle
-Size of Dataset: 40950 x 16
-Attributes:
+Source of Dataset: Kaggle   
+Size of Dataset: 40950 x 16   
+Attributes:   
 - Video_id ( String)
 
 - Trending_date (String)
