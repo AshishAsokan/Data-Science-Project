@@ -4,34 +4,34 @@ Data science project on exploratory data analysis using Youtube trending video s
 Source of Dataset: Kaggle
 Size of Dataset: 40950 x 16
 Attributes:
--Video_id ( String)
+- Video_id ( String)
 
--Trending_date (String)
+- Trending_date (String)
 
--Title (String)
+- Title (String)
 
--Channel_title (String)
+- Channel_title (String)
 
--Category_id (ID)
+- Category_id (ID)
 
--Publish_time (Date)
+- Publish_time (Date)
 
--Tags (String)
+- Tags (String)
 
--Views (Integer)
+- Views (Integer)
 
--Likes (Integer)
+- Likes (Integer)
 
--Dislikes (Integer)
+- Dislikes (Integer)
 
--Comment_count (Integer)
+- Comment_count (Integer)
 
--Thumbnail_link (URL)
+- Thumbnail_link (URL)
 
--Comments_disabled (Boolean)
+- Comments_disabled (Boolean)
 
--Ratings_disabled (Boolean)
+- Ratings_disabled (Boolean)
 
--Video_error_or_removed (Boolean)
+- Video_error_or_removed (Boolean)
 
--Description (String)
+- Description (String)
