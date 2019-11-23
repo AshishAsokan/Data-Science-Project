@@ -33,9 +33,6 @@ data.to_csv("USvideos_standard.csv")
 # plot_disp = data.plot(x='likes', y='views', kind='box')
         
 # data_frame.boxplot(column='comment_count',by='category_id')
-# data_frame.hist(column='likes')
-
-corr_test = data_frame[['likes', 'comment_count', 'views', 'dislikes']]
-print(corr_test.corr(method='pearson'))
-print(corr_test.corr(method='kendall'))
-# plt.show()
+data_frame.hist(column='likes')
+data.hist(column='likes')
+plt.show()
