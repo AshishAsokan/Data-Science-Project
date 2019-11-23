@@ -1,3 +1,5 @@
+# Performing linear regression for dislikes vs comment_count on standardised dataset
+
 import pandas
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,7 +14,7 @@ print(corr_test.corr(method='pearson'))
 print(corr_test.corr(method='kendall'))
 
 # Extracting x and y values from dataframe
-df = data_frame[['likes', 'comment_count']]
+df = data_frame[['dislikes', 'comment_count']]
 X = df.iloc[:, 0].values.reshape(-1, 1)  # values converts it into a numpy array
 Y = df.iloc[:, 1].values.reshape(-1, 1)  # -1 means that calculate the dimension of rows, but have 1 column
 

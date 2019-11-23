@@ -1,3 +1,5 @@
+# Performing linear regression and correlation analysis on cleaned dataset
+
 import pandas
 import numpy as np
 import matplotlib.pyplot as plt
